@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>LuckyNum</title>
+  <script src="https://unpkg.com/jquery"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+<form id="lucky-form" class='cupcake-form my-3 justify-content-center'>
+  <h1 class='display-5 mb-3 text-center text-info'>LUCKY NUMBER</h1>
+  <div>Name: <input id="name"> <b id="name-err" class="text-danger"></b> </div>
+  <div>Birth Year: <input id="year"> <b id="year-err" class="text-danger"></b> </div>
+  <div>Email: <input id="email"> <b id="email-err" class="text-danger"></b> </div>
+  <div>Color: <input id="color"> <b id="color-err" class="text-danger"></b> </div>
+  <button class='btn btn-success'>I Want To Feel Lucky!</button>
+</form>
+
+<div id="lucky-results"></div>
+
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="/static/lucky.js"></script>
+
+</body>
+</html>
